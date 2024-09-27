@@ -12,9 +12,16 @@ This project contains two ROS 2 nodes for a differential drive robot. The first 
 ## **Project Structure**
 ```plaintext
 .
-├── odom_compute.py    # Odometry computation node
-├── drive_robot.py     # Robot control node
+├──resource
+├── test
+├── turtlebot3_simulation
+  ├── __init__.py
+  ├── odom_compute.py    # Odometry computation node
+  ├── drive_robot.py     # Robot control node
 ├── README.md          # Project description and instructions (this file)
+├── package.xml
+├── setup.cfg
+├── setup.py
 ```
 
 ## **File Descriptions**
